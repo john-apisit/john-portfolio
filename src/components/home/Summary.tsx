@@ -1,9 +1,10 @@
 import React from 'react'
 import { ArrowNarrowRightIcon } from '@heroicons/react/outline'
+import { Element } from 'react-scroll'
 
 const Summary = () => {
   return (
-    <div className="min-h-screen">
+    <Element className="min-h-screen" name="home">
       <div className="flex flex-col mx-auto p-80">
         <span className="text-pink-500">Hi, my name is</span>
         <h1 className="text-white text-5xl font-bold">
@@ -13,7 +14,7 @@ const Summary = () => {
           I'm a Lead Software Engineer.
         </h1>
         <p className="text-gray-400 mt-4">
-          Currently I am working in the IT department of Lotus company as a
+          Currently I am working in the IT department of Lotus's company as a
           software development lead. I have 10 years experience in Javascript
           development. 7 years for C# .NET MVC. 5 years for Angular and
           Typescript. 3 years for NodeJs. 2 years for VueJs. and 3 years for
@@ -25,7 +26,7 @@ const Summary = () => {
           <ArrowNarrowRightIcon className="w-6" />
         </button>
       </div>
-    </div>
+    </Element>
   )
 }
 
