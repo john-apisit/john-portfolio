@@ -6,10 +6,13 @@ module.exports = {
       fontFamily: {
         rubik: ['Rubik Maze']
       },
-      textColor:{
+      textColor: {
         primary: '#643fdd'
       },
       backgroundColor: {
+        primary: '#643fdd'
+      },
+      borderColor: {
         primary: '#643fdd'
       }
     }

@@ -16,8 +16,8 @@ const menus = [
     text: 'Skills'
   },
   {
-    id: 'service',
-    text: 'Service'
+    id: 'qualification',
+    text: 'Qualification'
   },
   {
     id: 'portfolio',
@@ -34,7 +34,7 @@ const Header = () => {
   const [activeId, setActiveId] = useState('home')
 
   return (
-    <div className="flex flex-row gap-4 text-gray-300 items-center justify-between py-8 fixed w-full top-0 px-20">
+    <div className="flex flex-row gap-4 bg-[rgba(20,17,32,0.8)] text-gray-300 items-center justify-between py-8 fixed w-full top-0 z-10 px-20">
       <h1 className="font-semibold flex-1">John</h1>
       <ul className="flex flex-row gap-10">
         {menuList.map((c, i) => (

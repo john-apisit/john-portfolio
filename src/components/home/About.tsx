@@ -5,15 +5,15 @@ import profile2 from '../../assets/profile2.jpg'
 
 const expList = [
   {
-    value: '08+',
+    value: '10+',
     text: 'Years experience'
   },
   {
-    value: '20+',
+    value: '10+',
     text: 'Completed projects'
   },
   {
-    value: '05+',
+    value: '09+',
     text: 'Companies worked'
   }
 ]
@@ -25,10 +25,10 @@ const About = () => {
         <h1 className="text-5xl font-bold">About Me</h1>
         <p className="pt-2">My introduction</p>
         <div className="flex flex-row gap-2 pt-14">
-          <div className="flex-1">
+          <div className="flex-1 px-10">
             <img
               src={profile2}
-              className="object-contain rounded-full w-72 mx-auto"
+              className="rounded-full w-72 object-contain mx-auto"
             />
           </div>
           <div className="flex-1 flex flex-col">

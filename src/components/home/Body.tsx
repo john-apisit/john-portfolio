@@ -2,6 +2,7 @@ import React from 'react'
 import { Element } from 'react-scroll'
 import About from './About'
 import Home from './Home'
+import Qualification from './Qualification'
 import Skills from './Skills'
 
 const Body = () => {
@@ -10,9 +11,7 @@ const Body = () => {
       <Home />
       <About />
       <Skills />
-      <Element name="service" className="min-h-screen pt-20">
-        service
-      </Element>
+      <Qualification />
       <Element name="portfolio" className="min-h-screen pt-20">
         portfolio
       </Element>

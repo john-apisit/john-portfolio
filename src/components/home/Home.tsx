@@ -25,7 +25,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="flex-1">
-          <img src={profile} className="rounded-full w-72 mx-auto" />
+          <img src={profile} className="rounded-full w-72 object-contain mx-auto" />
         </div>
       </div>
     </Element>
