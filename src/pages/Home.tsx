@@ -1,12 +1,13 @@
 import React from 'react'
 import Body from '../components/home/Body'
 import Header from '../components/home/Header'
-import Summary from '../components/home/Summary'
+import Socials from '../components/home/Socials'
 
 const Home = () => {
   return (
-    <div className='bg-[#0f172a] flex flex-col h-full min-h-screen text-gray-300 scroll-smooth'>
+    <div className='bg-[rgb(20,17,32)] min-h-screen'>
       <Header />
+      <Socials />
       <Body />
     </div>
   )

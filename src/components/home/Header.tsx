@@ -1,46 +1,61 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll'
+import { SunIcon } from '@heroicons/react/outline'
 
-const menuList = [
+const menus = [
   {
-    name: 'home'
+    id: 'home',
+    text: 'Home'
   },
   {
-    name: 'about'
+    id: 'about',
+    text: 'About'
   },
   {
-    name: 'experience'
+    id: 'skills',
+    text: 'Skills'
   },
   {
-    name: 'work'
+    id: 'service',
+    text: 'Service'
   },
   {
-    name: 'contact'
+    id: 'portfolio',
+    text: 'Portfolio'
+  },
+  {
+    id: 'contactMe',
+    text: 'Contact Me'
   }
 ]
 
-const header = () => {
+const Header = () => {
+  const [menuList, setMenuList] = useState(menus)
+  const [activeId, setActiveId] = useState('home')
+
   return (
-    <div className="flex flex-row justify-between items-center py-4 px-8 fixed w-full top-0">
-      <h1 className="font-bold text-4xl cursor-pointer text-pink-500 font-rubik">
-        John's Portfolio
-      </h1>
-      <ul className="flex flex-row gap-8 capitalize">
+    <div className="flex flex-row gap-4 text-gray-300 items-center justify-between py-8 fixed w-full top-0 px-20">
+      <h1 className="font-semibold flex-1">John</h1>
+      <ul className="flex flex-row gap-10">
         {menuList.map((c, i) => (
-          <li className="hover:scale-105" key={i}>
+          <li key={i} className="font-medium cursor-pointer">
             <Link
-              to={c.name}
+              onClick={() => setActiveId(c.id)}
+              className={`hover:text-primary ${
+                activeId === c.id ? 'text-primary' : ''
+              }`}
+              to={c.id}
               smooth={true}
               duration={300}
-              className="cursor-pointer hover:text-gray-50"
             >
-              {c.name}
+              {c.text}
             </Link>
           </li>
         ))}
       </ul>
+      <SunIcon className="text-gray-300 w-6 cursor-pointer" />
     </div>
   )
 }
 
-export default header
+export default Header

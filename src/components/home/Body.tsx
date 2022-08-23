@@ -1,14 +1,24 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 import About from './About'
-import Experience from './Experience'
-import Summary from './Summary'
+import Home from './Home'
+import Skills from './Skills'
 
 const Body = () => {
   return (
-    <div className='flex flex-col'>
-      <Summary />
+    <div className="text-gray-300 px-20">
+      <Home />
       <About />
-      <Experience />
+      <Skills />
+      <Element name="service" className="min-h-screen pt-20">
+        service
+      </Element>
+      <Element name="portfolio" className="min-h-screen pt-20">
+        portfolio
+      </Element>
+      <Element name="contactMe" className="min-h-screen pt-20">
+        contactMe
+      </Element>
     </div>
   )
 }
