@@ -1,5 +1,6 @@
 import React from 'react'
 import Body from '../components/home/Body'
+import Footer from '../components/home/Footer'
 import Header from '../components/home/Header'
 import Socials from '../components/home/Socials'
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Socials />
       <Body />
+      <Footer />
     </div>
   )
 }

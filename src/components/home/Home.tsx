@@ -11,7 +11,7 @@ const Home = () => {
           <h1 className="text-5xl font-bold">Hi, I'am John</h1>
           <h2 className="text-xl py-4">Lead Software Engineer</h2>
           <p className=''>
-            High level experience in web design and development knowledge,
+            High level experience in web and mobile development knowledge,
             producing quality work.
           </p>
           <Link

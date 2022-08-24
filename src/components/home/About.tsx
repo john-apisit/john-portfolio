@@ -34,7 +34,7 @@ const About = () => {
           <div className="flex-1 flex flex-col">
             <p>
               Web developer, with extensive knowledge and years of experience,
-              working in web technologies and UI/UX design, delivering quality
+              working in web, backend and AWS cloud technologies, delivering quality
               work.
             </p>
             <div className="pt-10 flex flex-row">

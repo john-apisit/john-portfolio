@@ -10,8 +10,12 @@
   }
 }
 
-@layer components{
+@layer components {
   .btn {
-    @apply flex flex-row items-center justify-center cursor-pointer gap-2 my-10 py-4 px-6 rounded-md bg-primary hover:scale-105 hover:animate-pulse
+    @apply flex flex-row items-center justify-center cursor-pointer gap-2 my-10 py-4 px-6 rounded-md bg-primary hover:scale-105 hover:animate-pulse;
+  }
+
+  .input-text {
+    @apply  p-4 bg-[rgb(42,37,66)] w-full lg:w-auto;
   }
 }

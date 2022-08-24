@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin, FaFacebookSquare, FaRegFileAlt } from 'react-icons/fa'
+import { FaLinkedin, FaFacebookSquare, FaRegFileAlt, FaGithub } from 'react-icons/fa'
 
 const Socials = () => {
   return (
@@ -17,6 +17,13 @@ const Socials = () => {
         className="hover:animate-pulse hover:scale-110"
       >
         <FaFacebookSquare className="text-primary cursor-pointer" size={28} />
+      </a>
+      <a
+        target="_blank"
+        href="https://github.com/johns-portfolio"
+        className="hover:animate-pulse hover:scale-110"
+      >
+        <FaGithub className="text-primary cursor-pointer" size={28} />
       </a>
     </div>
   )
