@@ -63,8 +63,8 @@ export const skills = [
 
 const Skills = () => {
   return (
-    <Element name="skills" className="min-h-screen max-w-6xl mx-auto">
-      <div className="text-gray-300 flex flex-col items-center gap-2 px-32 py-40 my-auto">
+    <Element name="skills" className="min-h-screen max-w-6xl mx-auto lg:px-32 py-32 lg:py-52">
+      <div className="text-gray-300 flex flex-col items-center gap-2 my-auto">
         <h1 className="text-5xl font-bold">Skills</h1>
         <p className="pt-2 text-gray-400">My technical level</p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 w-full pt-10">
@@ -79,7 +79,7 @@ const Skills = () => {
                 <ChevronUpIcon className="text-primary w-6" />
               </div>
 
-              <div className="flex flex-col gap-2 pl-11 pt-8">
+              <div className="flex flex-col gap-2 lg:pl-11 pt-8">
                 {c.techList.map((t, i) => (
                   <div className="flex flex-col mb-4" key={i}>
                     <div className="flex flex-row">

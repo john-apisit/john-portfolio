@@ -1,9 +1,16 @@
 import React from 'react'
-import { FaLinkedin, FaFacebookSquare, FaRegFileAlt, FaGithub } from 'react-icons/fa'
+import {
+  FaLinkedin,
+  FaFacebookSquare,
+  FaRegFileAlt,
+  FaGithub
+} from 'react-icons/fa'
 
-const Socials = () => {
+const Socials = ({ className }: { className?: string }) => {
   return (
-    <div className="fixed left-20 min-h-screen flex flex-col gap-4 justify-center text-gray-300">
+    <div
+      className={`${className} gap-4 justify-center text-gray-300 z-50`}
+    >
       <a
         target="_blank"
         href="https://www.linkedin.com/in/apisit-sianglert"

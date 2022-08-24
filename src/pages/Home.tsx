@@ -6,9 +6,9 @@ import Socials from '../components/home/Socials'
 
 const Home = () => {
   return (
-    <div className='bg-[rgb(20,17,32)] min-h-screen'>
+    <div className="bg-[rgb(20,17,32)] min-h-screen">
       <Header />
-      <Socials />
+      <Socials className="hidden lg:flex flex-col fixed left-20 min-h-screen" />
       <Body />
       <Footer />
     </div>

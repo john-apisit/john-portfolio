@@ -91,8 +91,8 @@ const expList = [
 
 const Qualification = () => {
   return (
-    <Element name="qualification" className="min-h-screen max-w-6xl mx-auto">
-      <div className="text-gray-300 flex flex-col items-center gap-2 px-32 py-40 my-auto">
+    <Element name="qualification" className="min-h-screen max-w-6xl mx-auto lg:px-32 py-32 lg:py-52">
+      <div className="text-gray-300 flex flex-col items-center gap-2 my-auto">
         <h1 className="text-5xl font-bold">Qualification</h1>
         <p className="pt-2 text-gray-400">My personal journey</p>
         <div className="flex flex-row gap-10 pt-10">
@@ -111,21 +111,21 @@ const Qualification = () => {
             return (
               <div
                 className={`flex flex-col relative pb-4 border-primary ${
-                  isLeftItem ? 'items-end pr-14' : 'pl-14'
+                  isLeftItem ? 'items-end pr-4 lg:pr-14' : 'pl-4 lg:pl-14'
                 } ${isLeftItem && i < expList.length - 2 && 'border-r-2'}`}
                 key={i}
               >
                 {c && (
                   <>
                     <h1
-                      className={`leading-none lg:text-xl ${
+                      className={`leading-none text-sm lg:text-xl ${
                         isLeftItem && 'text-right'
                       } ${c.type === 'education' && 'text-primary'}`}
                     >
                       {c.position}
                     </h1>
-                    <span className="text-gray-500 mt-1">{c.company}</span>
-                    <span className="text-gray-500 flex flex-row items-center gap-1 mt-4">
+                    <span className="text-gray-500 mt-1 text-sm lg:text-base">{c.company}</span>
+                    <span className="text-gray-500 flex flex-row items-center gap-1 mt-4 text-xs lg:text-base">
                       <FaCalendarAlt />
                       <DateFormatter value={c.from} format={'MMM YYYY'} />
                       -

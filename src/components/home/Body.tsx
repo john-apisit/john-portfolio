@@ -9,7 +9,7 @@ import Skills from './Skills'
 
 const Body = () => {
   return (
-    <div className="text-gray-300 px-20">
+    <div className="text-gray-300 px-8 lg:px-20">
       <Home />
       <About />
       <Skills />

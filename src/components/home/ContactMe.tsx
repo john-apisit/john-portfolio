@@ -4,8 +4,8 @@ import { Element } from 'react-scroll'
 
 const ContactMe = () => {
   return (
-    <Element name="contactMe" className="min-h-screen max-w-6xl mx-auto">
-      <div className="text-gray-300 flex flex-col items-center gap-2 px-32 py-40 my-auto">
+    <Element name="contactMe" className="min-h-screen max-w-6xl mx-auto lg:px-32 py-32 lg:py-52">
+      <div className="text-gray-300 flex flex-col items-center gap-2 my-auto">
         <h1 className="text-4xl font-bold">Contact Me</h1>
         <p className="pt-2 text-gray-400">Get in touch</p>
         <div className="flex flex-row flex-wrap gap-10 pt-10">

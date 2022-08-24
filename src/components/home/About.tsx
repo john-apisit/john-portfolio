@@ -20,12 +20,12 @@ const expList = [
 
 const About = () => {
   return (
-    <Element name="about" className="min-h-screen max-w-6xl mx-auto">
-      <div className="text-gray-300 flex flex-col items-center gap-2 px-32 py-52 my-auto">
+    <Element name="about" className="min-h-screen lg:max-w-6xl mx-auto lg:px-32 py-32 lg:py-52">
+      <div className="text-gray-300 flex flex-col items-center gap-2 my-auto">
         <h1 className="text-5xl font-bold">About Me</h1>
         <p className="pt-2">My introduction</p>
-        <div className="flex flex-row gap-2 pt-14">
-          <div className="flex-1 px-10">
+        <div className="flex flex-row flex-wrap gap-2 pt-14">
+          <div className="flex-1 px-10 pb-10">
             <img
               src={profile2}
               className="rounded-full w-72 object-contain mx-auto"
@@ -47,7 +47,7 @@ const About = () => {
             </div>
 
             <a
-              className="btn w-52"
+              className="btn lg:w-52"
               href="https://johnny-resume.herokuapp.com"
               target={'_blank'}
             >
