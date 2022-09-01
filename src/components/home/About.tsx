@@ -48,7 +48,7 @@ const About = () => {
 
             <a
               className="btn lg:w-52"
-              href="https://johnny-resume.herokuapp.com"
+              href="/resume"
               target={'_blank'}
             >
               <span>Download CV</span>

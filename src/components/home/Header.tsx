@@ -38,7 +38,7 @@ const Header = () => {
     <div className="flex flex-row gap-4 bg-[rgba(20,17,32,0.8)] text-gray-300 items-center justify-between py-8 fixed w-full top-0 z-10 lg:px-20 px-8">
       <Link
         onClick={() => setActiveId('home')}
-        className="font-semibold flex-1 font-medium cursor-pointer"
+        className="flex-1 font-medium cursor-pointer"
         to={'home'}
         smooth={true}
         duration={300}
