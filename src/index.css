@@ -16,6 +16,10 @@
   }
 
   .input-text {
-    @apply  p-4 bg-[rgb(42,37,66)] w-full lg:w-auto;
+    @apply p-4 bg-[rgb(42,37,66)] w-full lg:w-auto;
+  }
+
+  .clip-bg {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
   }
 }

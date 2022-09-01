@@ -46,7 +46,7 @@ export const skills = [
       { name: 'AWS S3', score: 80 },
       { name: 'AWS SNS', score: 50 },
       { name: 'AWS SQS', score: 50 },
-      { name: 'Firebase', score: 50 },
+      { name: 'Firebase', score: 50 }
     ]
   },
 
@@ -63,7 +63,10 @@ export const skills = [
 
 const Skills = () => {
   return (
-    <Element name="skills" className="min-h-screen max-w-6xl mx-auto lg:px-32 py-32 lg:py-52">
+    <Element
+      name="skills"
+      className="min-h-screen max-w-6xl mx-auto lg:px-32 py-32 lg:py-52"
+    >
       <div className="text-gray-300 flex flex-col items-center gap-2 my-auto">
         <h1 className="text-5xl font-bold">Skills</h1>
         <p className="pt-2 text-gray-400">My technical level</p>

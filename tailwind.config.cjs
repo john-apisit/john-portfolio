@@ -14,6 +14,9 @@ module.exports = {
       },
       borderColor: {
         primary: '#643fdd'
+      },
+      scale: {
+        "300": '3'
       }
     }
   },
