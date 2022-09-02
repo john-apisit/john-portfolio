@@ -152,7 +152,7 @@ export const expList = [
     position: 'Computer Engineering',
     company: 'Rajamangala University of Technology Thanyaburi (RMUTT)',
     from: '2008-05-01',
-    to: '2012-05-31'
+    to: '2012-04-30'
   }
 ]
 

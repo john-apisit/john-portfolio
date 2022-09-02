@@ -26,14 +26,14 @@ const WorkExperiences = () => {
                   <div>
                     <div className="flex flex-row gap-2 items-center">
                       <BsTag className="text-blue-500" size={14} />
-                      <span className="max-w-xl">{r.title ? r.title : r}</span>
+                      <span className="flex-1">{r.title ? r.title : r}</span>
                     </div>
                     {r.subTasks && (
                       <div className="flex flex-col pl-4">
                         {r.subTasks.map((s: string) => (
                           <div className="flex flex-row gap-2 items-center">
                             <BsTag className="text-blue-500" size={14} />
-                            <span className="max-w-xl">{s}</span>
+                            <span className="flex-1">{s}</span>
                           </div>
                         ))}
                       </div>
