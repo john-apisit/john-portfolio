@@ -1,65 +1,41 @@
-import { ChevronUpIcon, CodeIcon } from '@heroicons/react/outline'
-import React from 'react'
+import { ChevronUpIcon, CodeIcon } from "@heroicons/react/outline";
+import React from "react";
 import {
   FaCode,
   FaLanguage,
   FaReact,
   FaRegHeart,
-  FaRegMoon
-} from 'react-icons/fa'
-import { Element } from 'react-scroll'
-import ProgressBar from './ProgressBar'
+  FaRegMoon,
+} from "react-icons/fa";
+import { Element } from "react-scroll";
+import ProgressBar from "./ProgressBar";
 
 export const skills = [
   {
-    group: 'Frontend developer',
-    caption: 'More than 10 years',
+    group: "Programming",
+    caption: "10+ years",
     icon: <FaRegHeart className="text-primary hover:animate-pulse" size={28} />,
     techList: [
-      { name: 'React', score: 80 },
-      { name: 'React Native', score: 80 },
-      { name: 'Angular', score: 80 },
-      { name: 'VueJs', score: 80 },
-      { name: 'Javascript', score: 100 },
-      { name: 'TypeScript', score: 100 },
-      { name: 'CSS/SCSS', score: 80 },
-      { name: 'Tailwind', score: 90 },
-      { name: 'Bootstrap', score: 80 }
-    ]
+      { name: "Nodejs", score: 90 },
+      { name: "Nestjs", score: 90 },
+      { name: "Typescript", score: 90 },
+      { name: "Vue 3", score: 90 },
+      { name: "Tailwind", score: 90 },
+      { name: "Jest", score: 90 },
+      { name: "Java", score: 70 },
+      { name: " Spring Boot", score: 70 },
+    ],
   },
-
   {
-    group: 'Backend developer',
-    caption: 'More than 10 years',
-    icon: <FaRegMoon className="text-primary hover:animate-pulse" size={28} />,
-    techList: [
-      { name: 'NodeJS', score: 100 },
-      { name: 'NestJS', score: 80 },
-      { name: 'MongoDB', score: 80 },
-      { name: 'PostgreSQL', score: 50 },
-      { name: 'Docker', score: 100 },
-      { name: 'Kubernetes', score: 80 },
-      { name: 'Jenkins', score: 80 },
-      { name: 'AWS CDK', score: 50 },
-      { name: 'AWS EC2', score: 80 },
-      { name: 'AWS Lambda', score: 90 },
-      { name: 'AWS S3', score: 80 },
-      { name: 'AWS SNS', score: 50 },
-      { name: 'AWS SQS', score: 50 },
-      { name: 'Firebase', score: 50 }
-    ]
-  },
-
-  {
-    group: 'Languages',
-    caption: '',
+    group: "Languages",
+    caption: "",
     icon: <FaLanguage className="text-primary hover:animate-pulse" size={28} />,
     techList: [
-      { name: 'Thai', score: 100 },
-      { name: 'English', score: 60 }
-    ]
-  }
-]
+      { name: "Thai", score: 100 },
+      { name: "English", score: 70 },
+    ],
+  },
+];
 
 const Skills = () => {
   return (
@@ -98,7 +74,7 @@ const Skills = () => {
         </div>
       </div>
     </Element>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
