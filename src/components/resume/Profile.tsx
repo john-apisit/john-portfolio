@@ -1,16 +1,30 @@
-import React from 'react'
+import React from "react";
 
 const Profile = () => {
   return (
     <div className="mt-4">
       <h1 className="text-xl text-sky-500">Profile</h1>
       <p className="my-2">
-        Hi, I'm John, 4 years Lead Software Engineer at Lotus's company. Over 10+ years in full-stack developer
-        <br />
-        I am looking for a new challeged job as a Tech Lead Engineer that can improve my tech skills and others. I also open for new tech stack that I have never coded before like ReactNative. 
+        Results-driven software engineer and technology leader with 12+ years of
+        experience in full-stack development, team leadership, and product
+        innovation. Proven expertise in designing and delivering scalable web
+        and mobile applications across diverse industries, including finance,
+        insurance, eCommerce, and SaaS. Skilled in a wide range of technologies
+        including Flutter, Dart, Node.js, NestJS, TypeScript, Java, .NET,
+        Angular, Vue, PostgreSQL, MongoDB, Supabase, and cloud platforms like
+        AWS.
+      </p>
+      <p className="my-2">
+        As a tech lead and founder, I excel at bridging the gap between business
+        requirements and technical execution. I have led high-performing teams,
+        defined engineering standards, architected complex systems, and
+        independently built products from concept to launch. My recent venture,
+        Fast Habit, demonstrates my ability to innovate and deliver
+        cross-platform applications with AI integration, subscription
+        management, and intuitive UI/UX design.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

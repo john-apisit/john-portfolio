@@ -10,7 +10,7 @@ const Body = () => {
       <div className="flex flex-col bg-gray-200 pt-48 px-4 w-80  pb-16">
         <Contact />
         <Profile />
-        <Skills />
+        {/* <Skills /> */}
       </div>
       <div className="flex flex-col flex-1 pt-48 px-4 pb-16">
         <WorkExperiences />

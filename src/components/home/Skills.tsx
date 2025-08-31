@@ -16,14 +16,10 @@ export const skills = [
     caption: "10+ years",
     icon: <FaRegHeart className="text-primary hover:animate-pulse" size={28} />,
     techList: [
-      { name: "Nodejs", score: 90 },
       { name: "Nestjs", score: 90 },
       { name: "Typescript", score: 90 },
       { name: "Vue 3", score: 90 },
-      { name: "Tailwind", score: 90 },
-      { name: "Jest", score: 90 },
-      { name: "Java", score: 70 },
-      { name: " Spring Boot", score: 70 },
+      { name: "Flutter", score: 90 },
     ],
   },
   {
