@@ -29,7 +29,7 @@ export const expList = [
   },
   {
     position: "Software Development Lead",
-    company: "Lotus’s",
+    company: "CP Axtra (Lotus’s)",
     from: "2020-02-01",
     to: "2025-04-30",
     responsibilities: [
@@ -137,6 +137,9 @@ export const expList = [
         subTasks: [
           "Frontend: .NET MVC 5, Angular 1.x, WCF",
           "Backend: .NET MVC 5, MSSQL",
+          "",
+          "",
+          ""
         ],
       },
     ],
