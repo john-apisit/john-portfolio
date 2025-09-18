@@ -5,8 +5,8 @@ import DateFormatter from "../DateFormatter";
 
 export const expList = [
   {
-    position: "Founder & Developer",
-    company: "Fast Habit App — iOS & Android",
+    position: "Freelance",
+    company: "Remote",
     from: "2025-05-01",
     to: Date(),
     responsibilities: [
@@ -137,9 +137,6 @@ export const expList = [
         subTasks: [
           "Frontend: .NET MVC 5, Angular 1.x, WCF",
           "Backend: .NET MVC 5, MSSQL",
-          "",
-          "",
-          ""
         ],
       },
     ],

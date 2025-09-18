@@ -14,15 +14,6 @@ const Profile = () => {
         Angular, Vue, PostgreSQL, MongoDB, Supabase, and cloud platforms like
         AWS.
       </p>
-      <p className="my-2">
-        As a tech lead and founder, I excel at bridging the gap between business
-        requirements and technical execution. I have led high-performing teams,
-        defined engineering standards, architected complex systems, and
-        independently built products from concept to launch. My recent venture,
-        Fast Habit, demonstrates my ability to innovate and deliver
-        cross-platform applications with AI integration, subscription
-        management, and intuitive UI/UX design.
-      </p>
     </div>
   );
 };

@@ -16,10 +16,14 @@ export const skills = [
     caption: "10+ years",
     icon: <FaRegHeart className="text-primary hover:animate-pulse" size={28} />,
     techList: [
+      { name: "Nodejs", score: 90 },
       { name: "Nestjs", score: 90 },
-      { name: "Typescript", score: 90 },
+      { name: "Typescript/JavaScript", score: 90 },
       { name: "Vue 3", score: 90 },
-      { name: "Flutter", score: 90 },
+      { name: "Tailwind", score: 90 },
+      { name: "Angular", score: 80 },
+      { name: "React", score: 60 },
+      { name: "Flutter", score: 50 },
     ],
   },
   {
@@ -28,7 +32,7 @@ export const skills = [
     icon: <FaLanguage className="text-primary hover:animate-pulse" size={28} />,
     techList: [
       { name: "Thai", score: 100 },
-      { name: "English", score: 70 },
+      { name: "English", score: 80 },
     ],
   },
 ];
