@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaChevronRight } from 'react-icons/fa'
 import { Button, Element, Link } from 'react-scroll'
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/profile3.jpg'
 
 const Home = () => {
   return (
